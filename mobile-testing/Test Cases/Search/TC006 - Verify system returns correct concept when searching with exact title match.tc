@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006 - Verify system returns correct concept when searching with exact title match</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7860fca-7466-4482-98e2-c54a0f446afe</testCaseGuid>
+</TestCaseEntity>

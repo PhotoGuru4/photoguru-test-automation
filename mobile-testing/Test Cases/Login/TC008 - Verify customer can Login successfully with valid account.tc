@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008 - Verify customer can Login successfully with valid account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df75c4de-9100-40f3-b7fc-cef362852d58</testCaseGuid>
+</TestCaseEntity>

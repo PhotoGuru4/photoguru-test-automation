@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009 - Verify Customer can register successfully with valid inputs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>797bae3b-362e-4225-ba61-65ae82ef32c2</testCaseGuid>
+</TestCaseEntity>
