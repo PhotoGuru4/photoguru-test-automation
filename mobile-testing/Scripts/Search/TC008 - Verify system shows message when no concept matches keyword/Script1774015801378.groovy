@@ -17,26 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// ================= PRECONDITION =================
 Mobile.callTestCase(
 	findTestCase('Test Cases/Login/TC008 - Verify customer can Login successfully with valid account'),
 	[:],
 	FailureHandling.STOP_ON_FAILURE
 )
 
-// Define search keyword
-String keyword = "Wedding"
+// ================= TEST DATA =================
+String keyword = "hihi"  // Non-existent keyword
 
-// Perform search
+// ================= TEST STEPS =================
+// Step 1: Search with non-existent keyword
 CustomKeywords.'search.SearchKeyword.search'(keyword)
 
-// Verify has results
-CustomKeywords.'search.SearchKeyword.verifyHasResults'()
+// Step 2: Verify no results message appears
+CustomKeywords.'search.SearchKeyword.verifyNoResultMessage'()
 
-// Verify all results contain keyword
-CustomKeywords.'search.SearchKeyword.verifyAllContain'(keyword)
-
-// Take screenshot for evidence
-Mobile.takeScreenshot("search_result_${keyword}")
-
-
+// Step 3: Verify no result items displayed
+CustomKeywords.'search.SearchKeyword.verifyNoResultsFound'()
 

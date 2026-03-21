@@ -16,10 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import search.SearchKeyword as Search
 
-String keyword = "Wedd"
+Mobile.callTestCase(
+	findTestCase('Test Cases/Login/TC008 - Verify customer can Login successfully with valid account'),
+	[:],
+	FailureHandling.STOP_ON_FAILURE
+)
 
-Search.search(keyword)
+// ================= TEST DATA =================
+String keyword = "Wed"  // Partial keyword
 
-Search.verifyContainsAll(keyword)
+// ================= TEST STEPS =================
+// Step 1: Search with partial keyword
+CustomKeywords.'search.SearchKeyword.search'(keyword)
+
+// Step 2: Verify results exist
+CustomKeywords.'search.SearchKeyword.verifyHasResults'()
+
+// Verify all results contain keyword
+CustomKeywords.'search.SearchKeyword.verifyAllContain'(keyword)
+
+// Take screenshot for evidence
+Mobile.takeScreenshot("search_result_${keyword}")

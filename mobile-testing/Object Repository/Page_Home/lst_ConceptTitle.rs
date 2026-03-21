@@ -3,12 +3,27 @@
    <description></description>
    <name>lst_ConceptTitle</name>
    <tag></tag>
-   <elementGuidId>b8633915-737a-43d5-871d-dc4d91a52855</elementGuidId>
+   <elementGuidId>1c1e9c91-5d9f-455f-83e9-3fde48cb9cb0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView</locator>
+   <locator>//android.view.ViewGroup[@content-desc=&quot;Wedding, Thuy Ha&quot;]/android.widget.ImageView[1]</locator>
    <locatorCollection>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value></value>
@@ -26,36 +41,20 @@
          <value></value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
+         <value>new UiSelector()</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
          <value></value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//android.view.ViewGroup[@content-desc=&quot;Wedding, Thuy Ha&quot;]/android.widget.ImageView[1]</value>
+      </entry>
+      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//android.widget.TextView</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

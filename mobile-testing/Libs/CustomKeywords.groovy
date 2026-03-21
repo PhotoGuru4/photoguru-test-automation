@@ -27,35 +27,43 @@ def static "search.SearchKeyword.search"(
         	keyword)
 }
 
-
+ /**
+	 * Verify có kết quả trả về
+	 */ 
 def static "search.SearchKeyword.verifyHasResults"() {
     (new search.SearchKeyword()).verifyHasResults()
 }
 
-
-def static "search.SearchKeyword.verifyContainsAll"(
+ /**
+	 * Verify tất cả kết quả đều chứa keyword
+	 */ 
+def static "search.SearchKeyword.verifyAllContain"(
     	String keyword	) {
-    (new search.SearchKeyword()).verifyContainsAll(
+    (new search.SearchKeyword()).verifyAllContain(
         	keyword)
 }
 
+ /**
+	 * Verify kết quả đầu tiên chứa keyword
+	 */ 
+def static "search.SearchKeyword.verifyTop1Contains"(
+    	String keyword	) {
+    (new search.SearchKeyword()).verifyTop1Contains(
+        	keyword)
+}
 
+ /**
+	 * Verify không có kết quả (trường hợp tìm kiếm không có kết quả)
+	 */ 
 def static "search.SearchKeyword.verifyNoResult"() {
     (new search.SearchKeyword()).verifyNoResult()
 }
 
-
-def static "search.SearchKeyword.verifyPriorityTop"(
-    	String keyword	
-     , 	int topN	) {
-    (new search.SearchKeyword()).verifyPriorityTop(
-        	keyword
-         , 	topN)
-}
-
-
-def static "search.SearchKeyword.verifyPriorityTop"(
-    	String keyword	) {
-    (new search.SearchKeyword()).verifyPriorityTop(
-        	keyword)
+ /**
+	 * Verify số lượng kết quả (nếu cần)
+	 */ 
+def static "search.SearchKeyword.verifyResultCount"(
+    	int expectedCount	) {
+    (new search.SearchKeyword()).verifyResultCount(
+        	expectedCount)
 }
