@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC007 - Verify system returns concepts when searching with partial keyword</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a73be6e0-a9fb-4d89-8e90-799a2ba84201</testCaseGuid>
-</TestCaseEntity>

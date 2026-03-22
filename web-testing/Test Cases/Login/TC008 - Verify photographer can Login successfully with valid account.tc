@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008 - Verify photographer can Login successfully with valid account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c79bf781-f0a0-44bb-8a62-9c5dadd37aef</testCaseGuid>
+</TestCaseEntity>

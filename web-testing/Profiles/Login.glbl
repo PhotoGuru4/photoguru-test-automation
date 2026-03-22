@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'https://photoguru-web.vercel.app/login'</initValue>
       <name>baseUrl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -20,7 +20,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'password123'</initValue>
+      <initValue>'8SQVv/p9jVTHLrggi8kCzw=='</initValue>
       <name>password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Login</name>
+   <name>Register</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>baseUrl</name>
+      <initValue>'Thành phố Hà Nội'</initValue>
+      <name>province</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'holykimsa05@gmail.com'</initValue>
-      <name>email</name>
+      <initValue>'Phường Ba Đình'</initValue>
+      <name>ward</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

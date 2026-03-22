@@ -27,6 +27,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object baseUrl
+     
+    /**
+     * <p></p>
+     */
     public static Object email
      
     /**
@@ -53,6 +58,7 @@ public class GlobalVariable {
             G_Timeout = selectedVariables['G_Timeout']
             G_SiteURL = selectedVariables['G_SiteURL']
             G_AppPath = selectedVariables['G_AppPath']
+            baseUrl = selectedVariables['baseUrl']
             email = selectedVariables['email']
             password = selectedVariables['password']
             province = selectedVariables['province']

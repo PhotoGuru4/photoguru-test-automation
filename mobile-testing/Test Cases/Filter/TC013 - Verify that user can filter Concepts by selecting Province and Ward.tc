@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC013 - Verify that user can filter Concepts by selecting Province and Ward</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b2cbbf65-f239-4c32-bae6-2bdcb4a5bd20</testCaseGuid>
-</TestCaseEntity>
